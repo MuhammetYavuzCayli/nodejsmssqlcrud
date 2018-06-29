@@ -71,7 +71,7 @@ app.get("/api/user/:number", function (req, res) {
     var query = "select top("+top1+")* from [Users]";
     executeQuery(req,res, query,"GET");
 });
-//Prosedürle beraber POST İşlemi 
+//Prosedürle beraber kullanıcı ekleme
 app.use("/api/sp/user",insert);
 
 //POST API ÇALIŞIYOR
