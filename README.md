@@ -1,2 +1,2 @@
 # nodejsmssqlcrud
-this is a basic example about nodejs and mssql
+NodeJs i api olarak kullanmayı sevenler için gelsin :)
