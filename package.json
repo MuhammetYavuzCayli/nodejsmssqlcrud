@@ -1,7 +1,7 @@
 {
   "name": "sqlconn",
   "version": "1.0.0",
-  "description": "this is part of nodejs and sql\u001b[an app include which include nodejs and sql server",
+  "description": "this is part of nodejs and sql api which include nodejs and sql server",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
