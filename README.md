@@ -3,7 +3,7 @@ NodeJs i api olarak kullanmayı sevenler için gelsin :)
 ## Kurulum ve ilk çalıştırma
 Öncelikle kurulum yapılması gereken programlar:
 
-* [SQL Server](https://www.microsoft.com/en-US/download/details.aspx?id=54284)
+* [SQL Server](https://www.microsoft.com/en-US/download/details.aspx?id=54284) - Son sürüm kullanmanızı tavsiye ederim :)
 * [NodeJs](https://nodejs.org/en/)
 * Sevdiğiniz bir kodlama editörü (ben Visual Studio Code kullanıyorum.)
 
