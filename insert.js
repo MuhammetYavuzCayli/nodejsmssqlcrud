@@ -21,13 +21,15 @@ var executeQuery = function (req,res) {
     request.execute("SearchBeforeInserting", (err, result)=>{
         if(err){
             res.send("HATAAAA :" +err);
+        }else if(result.recordset[0].result == 1){
+            res.send("Böyle bir kullanıcı var!");
         } else {
             //Burada result.recordset[0].result ifadesi;
             //      result= (dönüş değeri).
             //      recordset= (mssql dönüş json array değeri)
             //      [0]= [burada maalesef mssql sonucu 2 kez dönüyor bundan dolay ilkini alıyoruz]
             //      result= (prosedür içindeki dönüş değerinin json objesi hali)
-            res.send(result.recordset[0].result);
+            res.send("Kullanıcıyı ekledik !");
         }
     })
 }
